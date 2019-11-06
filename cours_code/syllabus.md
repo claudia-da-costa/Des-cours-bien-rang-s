@@ -77,7 +77,6 @@ Hartl, Michael. *Learn Enough Command Line to Be Dangerous: A tutorial introduct
 
 Nebra, Mathieu. *Réalisez votre site web avec HTML 5 et CSS 3*. OpenClassrooms. 2017. 306 pages.
 
-
 ### **Langue d'enseignement**
 
 Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.
