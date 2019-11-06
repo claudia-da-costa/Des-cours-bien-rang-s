@@ -1,6 +1,3 @@
-[Source](http://cours-upec.surge.sh/lessons/git.html "Permalink to Cours UPEC")
-
-# Cours UPEC
 
 ## 1\. Introduction
 
