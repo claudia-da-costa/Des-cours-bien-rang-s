@@ -97,9 +97,7 @@ C'est comme dans l'explorateur en GUI, quand tu double-cliques sur `felix`, il t
 
 `ls` est le diminutif de _list_. Cette fonction affiche les fichiers et dossiers situés dans mon dossier actuel.
 
-
 $ ls
-
 
 Pour moi, `ls` me renvoie :
 
@@ -112,7 +110,6 @@ Dans le terminal, nous pouvons ajouter des options à la plupart des fonctions e
 ##### 3.3.3. MAN
 
 `man` est le diminutif de _manual_. Man lance un programme permettant de lire le manuel d'une fonction précise. Pratique pour connaître toutes ses spécificités ! Pour s'en servir, il suffit de taper : `man fonction`. Par exemple, pour afficher le manuel de la commande ls, je dois taper :
-
 
 $ man ls
 
@@ -145,7 +142,7 @@ Utiliser la touche `TAB` permet de faire de l'autocompletion, très pratique pou
 
 En tapant :
 
-> $ touch nomdufichier
+$ touch nomdufichier
 
 Cette commande va créer un fichier qui s'appelle _nomdufichier_
 
