@@ -18,7 +18,7 @@ Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir 
 
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
 
-###**Séance 1**
+### **Séance 1**
 
 - **Date** : 25/09
 - **Titre** : Découverte de l’écran noir pour se sentir comme un hacker
