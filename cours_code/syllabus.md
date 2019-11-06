@@ -83,14 +83,11 @@ Nebra, Mathieu. *Réalisez votre site web avec HTML 5 et CSS 3*. OpenClassrooms.
 Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.
 
 **Matériel**
-> - ###Pour le cours, vous aurez besoin d’un ordinateur.
+Pour le cours, vous aurez besoin d’un ordinateur.
 
-> - ###Voici les différents logiciels à installer :
-	> - ###Un terminal
-		> - ###Déjà installé sur macOS et Linux
-		> - ###Cygwin sur Windows
-	> - ###Un éditeur de texte
-		> - ###Sublime Text ou Visual Studio Code
-
-
-
+Voici les différents logiciels à installer :
+	- Un terminal
+		- Déjà installé sur macOS et Linux
+		- Cygwin sur Windows
+	- Un éditeur de texte
+		- Sublime Text ou Visual Studio Code
