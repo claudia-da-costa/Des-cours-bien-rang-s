@@ -21,7 +21,8 @@
 > # **3. Le terminal**
 > ## **3.1. Qu'est-ce que le terminal ?**
 > ### Le terminal est un outil intimidant aux premiers abords, mais pas si compliqué au final. J'ai réalisé une vidéo pour l'expliquer :
-<https://www.youtube.com/watch?v=myz_6xrDwR4>
+
+[![Alt text](https://img.youtube.com/vi/myz_6xrDwR4/0.jpg)](https://www.youtube.com/watch?v=myz_6xrDwR4)
 
 
 > ## **3.2. Comment le lancer ?**
