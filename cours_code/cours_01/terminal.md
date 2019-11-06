@@ -28,6 +28,8 @@ En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir d
 
 Le terminal est un outil intimidant aux premiers abords, mais pas si compliqué au final. J'ai réalisé une vidéo pour l'expliquer :
 
+[![Alt text](https://img.youtube.com/vi/myz_6xrDwR4/0.jpg)](https://www.youtube.com/watch?v=myz_6xrDwR4)
+
 #### 3.2. Comment le lancer ?
 
 ##### 3.2.1. Sur macOS
