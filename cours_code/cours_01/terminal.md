@@ -224,10 +224,10 @@ Michael Hartl a fait une célèbre introduction au terminal nommée [Learn Enoug
 
 Pour ceux qui veulent découvrir Vim, voici [une marche à suivre][7] pour être champion de Vim rapidement.
 
-[1]: https://fr.wikipedia.org/wiki/Shell_Unix
-[2]: https://www.cygwin.com/
-[3]: https://youtu.be/YogNpgcKY9A
-[4]: https://fr.wikipedia.org/wiki/Hello_world
-[5]: https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course
-[6]: https://www.learnenough.com/command-line-tutorial
-[7]: https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85
+###### [1]: https://fr.wikipedia.org/wiki/Shell_Unix
+###### [2]: https://www.cygwin.com/
+###### [3]: https://youtu.be/YogNpgcKY9A
+###### [4]: https://fr.wikipedia.org/wiki/Hello_world
+###### [5]: https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course
+###### [6]: https://www.learnenough.com/command-line-tutorial
+###### [7]: https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85
