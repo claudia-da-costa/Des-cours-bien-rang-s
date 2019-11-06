@@ -50,6 +50,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envie
 Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique. 
 
 À la fin, les étudiants seront capables de : 
+
 	- Concevoir une page web avec HTML
 	- Lui mettre de la mise en page avec CSS
 	- Insérer des animations avec JavaScript
@@ -61,6 +62,7 @@ Le cours a pour but principal de faire découvrir le monde des sites webs et de 
 
 
 De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront capables de :
+
 	- S’expliquer mutuellement des concepts compliqués
  	- Travailler en équipe sur les projets d’entreprise
  	- Rechercher la bonne information
