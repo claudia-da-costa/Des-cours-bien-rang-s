@@ -86,8 +86,8 @@ Le cours est conçu pour des élèves français ; mais le monde de l’informati
 Pour le cours, vous aurez besoin d’un ordinateur.
 
 Voici les différents logiciels à installer :
-	- Un terminal
-		- Déjà installé sur macOS et Linux
-		- Cygwin sur Windows
-	- Un éditeur de texte
-		- Sublime Text ou Visual Studio Code
+- Un terminal
+	- Déjà installé sur macOS et Linux
+	- Cygwin sur Windows
+- Un éditeur de texte
+	- Sublime Text ou Visual Studio Code
