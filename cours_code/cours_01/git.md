@@ -1,3 +1,6 @@
+[Source](http://cours-upec.surge.sh/lessons/git.html "Permalink to Cours UPEC")
+
+# Cours UPEC
 
 ## 1\. Introduction
 
@@ -58,6 +61,8 @@ Nous allons maintenant voir :
 
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique [téléchargements][7], choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+
 #### 🚀 ALERTE BONNE ASTUCE
 
 Git est un logiciel **CLI** (_Command Line Interface_). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, _Graphical User Interface_.
@@ -69,7 +74,7 @@ Bref, toutes les actions de ce cours traiteront de la CLI et passeront par le te
 * Un peu comme Photoshop, la version GUI peut faire très peur avec ses milliers de boutons.
 * Pas besoin d'avoir moult softwares installés : il suffit d'un terminal et à toi la gloire !
 * Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible.
-
+</td><tr></table>
 Lance (ou relance) ton terminal, puis rentre la ligne suivante :
     
     
@@ -86,6 +91,9 @@ Avant de commencer, il faut dire au logiciel Git : "ceci est un dossier de trava
     
     $ git init
     Initialized empty Git repository in /home/felix/Desktop/my_big_project/.git/
+    
+    
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
 
 #### ⚠️ ALERTE ERREUR COMMUNE
 
@@ -105,6 +113,7 @@ En général la _rule of thumbs_ est : un git init par projet. Si jamais tu as f
     
     
     $ rm -rf .git
+</td><tr></table>
 
 Et maintenant, quelle est la commande la plus importante quand on manipule git ? Réponse : `git status`. Cette commande permet de te donner en un rien de temps l'état de ton projet git. Tu peux tester en entrant git status dans un repository git :
     
@@ -143,10 +152,13 @@ Maintenant que tu as ajouté tes fichiers à la liste, tu as juste à les prendr
 
 Et voilà comment marche le commit !
 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+
 #### 🤓 QUESTION RÉCURRENTE
 
 **Mais dis-donc Jamy, pourquoi écrire `git commit -m "mon commentaire"` et pas `git commit` tout simplement ?**  
 Excellente question. La commande `git commit` va ouvrir un fichier qui te demandera d'écrire un long message de commit avec Vim. Pas très pratique. Ainsi, comme l'option `-l` qui affiche les résultats de `ls` au format long, nous allons utiliser l'option `-m` qui permet d'écrire le message de commit directement dans la commande.
+</td><tr></table>
 
 ##### 3.1.3.3. Exemple avec un petit projet
 
@@ -436,11 +448,16 @@ Tu peux ainsi naviguer dans l'ancienne version pour consulter les fichiers à ce
     
     
     $ git checkout master
-
+    
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+    
 #### ⚠️ ALERTE ERREUR COMMUNE
 
 N'utilise pas cette commande si tu veux faire des modifications sur un fichier. Si jamais tu fais ça, tu auras droit à une erreur te faisant atterrir [sur l'un des threads les plus célèbres][9] de Stack Overflow. Si jamais tu veux revenir en arrière pour faire des modifications, passe à la section suivante.
+</td><tr></table>
 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+    
 #### ⚠️ ALERTE ERREUR COMMUNE
 
 `git checkout` ne marche que si tu n'as aucune modification non sauvegardée. Si tu es entre deux commits, git checkout te renverra cette erreur :
@@ -453,6 +470,7 @@ N'utilise pas cette commande si tu veux faire des modifications sur un fichier. 
     Aborting
 
 Dans ce cas, 2 possibilités . faire une sauvegarde (== faire un commit), ou tout effacer pour revenir au commit d'avant.
+</td><tr></table>
 
 #### 3.7.2. Revenir en arrière définitivement
 
@@ -463,6 +481,8 @@ Tu peux revenir en arrière définitivement avec la commande `git reset` qui s'u
 
 (en remplaçant "SHA" par le code reçu lors du `git log`)
 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+    
 #### 🚀 ALERTE BONNE ASTUCE
 
 La commande `git reset` est aussi un bon moyen pour effacer son travail actuel et revenir au commit précédent. Imagine par exemple que tu es en train de travailler sur la diapo de Jean-Michel. En plein milieu, tu te dis que ton approche est mauvaise et tu as soudain envie d'effacer tout ce que tu as fait jusqu'à présent. Plutôt que de faire `CTRL` \+ `Z` plein de fois, tu peux rentrer la commande suivante :
@@ -471,6 +491,7 @@ La commande `git reset` est aussi un bon moyen pour effacer son travail actuel e
     $ git reset --hard
 
 Et hop ! Tu reviens à ton dernier commit. Très pratique pour tester des concepts à la volée, ou quand tu n'as pas envie de commit les changements que tu viens de faire.
+</td><tr></table>
 
 ### 3.2. GitHub
 
@@ -545,6 +566,8 @@ Ou alors, si tu veux push ta branche "other_branch" vers la remote "heroku" tu f
     
     $ git push heroku other_branch
 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+    
 #### 🤓 QUESTION RÉCURRENTE
 
 **Mais dis donc Jamy, c'est quoi une branche ?**
@@ -556,12 +579,15 @@ Ce n'est pas l'objet du cours, mais je vais faire un petit aparté à ce sujet. 
 Prenons l'exemple de notre site. Tu voudrais reprendre les couleurs du menu, ce qui représente plusieurs jours de travail. Pour ceci, tu voudrais créer une branche nommée `new_design` sur laquelle tu vas faire plusieurs commits, puis montrer le design à ton client. Quand tu seras content, tu n'auras plus qu'à fusionner la branche `new_design` avec la branche `master` et à toi la gloire !
 
 Pour le moment, nous n'allons pas utiliser les branches. Sache juste que ce système existe, et que tu vas travailler sur la branche principale nommée `master`.
+</td><tr></table>
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
 
 #### 🤓 QUESTION RÉCURRENTE
 
 **Je viens d'initialiser un repo mais quand je push sur GitHub, certains dossiers de mon repo n'apparaissent pas (mais le reste si). Pourquoi?**
 
 S'il n'y a aucun fichier dans un dossier, Git ne "push" pas le dossier. Ne t'étonne donc pas si un dossier vide sur ton ordi n'apparait pas dans GitHub : dès qu'un fichier (Ruby ou autre) y sera ajouté avec `$ git add` puis "commité" et pushed, cette fois le dossier apparaîtra bien, avec le fichier qu'il contient.
+</td><tr></table>
 
 #### 3.2.4. Git pull
 
@@ -574,6 +600,8 @@ La commande `git pull` est le contraire de `git push` : elle remplace le code en
 
 On ne va pas se leurrer, Git n'est pas facile à utiliser quand on débute... Avant de te précipiter et de maudire ton ordinateur, nous allons annoncer quelque chose : c'est normal d'avoir des erreurs, surtout quand on commence. C'est arrivé à TOUT le monde, et surtout à ceux qui sont à l'aise aujourd'hui ❤ Le secret, c'est de ne pas désespérer, et de résoudre tes soucis calmement, un à un. Comme tout développeur est passé par ce chemin, les réponses aux problèmes classiques pullulent sur Stack Overflow. Copie-colle ton message d'erreur, lis les réponses, essaie de les comprendre, et trouve la solution à ton problème.
 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+    
 #### 🎨 EXEMPLE ILLUSTRÉ
 
 Prenons l'exemple d'une erreur que j'ai eue à mes débuts sur git. J'avais un repo git en local que j'avais déjà lié à une remote `origin` qui était un repo GitHub. Je n'étais pas content de mon repo GitHub, donc je l'ai supprimé, avant d'en re-créer un. Puis j'ai voulu lier mon repo local à ce nouveau repo GitHub en utilisant `$ git remote add origin url_du_repo`. Sauf que :
@@ -585,6 +613,7 @@ Prenons l'exemple d'une erreur que j'ai eue à mes débuts sur git. J'avais un r
 Oh mon dieu, Fatal !! En général, les erreurs sont en mode "error bug". Mais là, s'il est écrit "fatal", ça doit être grave, non ? Non. Une petite recherche Google du message d'erreur, et tu pourras découvrir que [c'est juste un problème de remote origin qui existe déjà][17].
 
 Bref, je ne te le cache pas : les erreurs, tu en auras. La clé de succès de The Hacking Project est justement ta capacité à bien les analyser, et à faire les bonnes recherches Google qui résoudront ton problème.
+</td><tr></table>
 
 ## 4\. Points importants à retenir
 
