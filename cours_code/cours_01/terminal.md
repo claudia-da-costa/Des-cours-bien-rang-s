@@ -1,8 +1,9 @@
+
 ### 1\. Introduction
 
 Accroche-toi à tes chaussettes, car nous allons maintenant découvrir les bases du terminal ! Il s'agit d'un outil très puissant permettant de "parler" à son ordinateur. Nous allons voir : comment interagir avec le terminal, comment jouer avec ses premiers fichiers, et bien d'autres choses utiles. C'est plutôt fun, tu vas voir !
 
-### 1.1. Ce que tu vas apprendre dans cette ressource
+#### 1.1. Ce que tu vas apprendre dans cette ressource
 
 Voici la liste des questions auxquelles tu vas pouvoir répondre avec cette ressource :
 
@@ -26,8 +27,6 @@ En gros, c'est une version texte de l'explorateur de fichiers : on peut ouvrir d
 #### 3.1. Qu'est-ce que le terminal ?
 
 Le terminal est un outil intimidant aux premiers abords, mais pas si compliqué au final. J'ai réalisé une vidéo pour l'expliquer :
-
-[![Alt text](https://img.youtube.com/vi/myz_6xrDwR4/0.jpg)](https://www.youtube.com/watch?v=myz_6xrDwR4)
 
 #### 3.2. Comment le lancer ?
 
@@ -60,13 +59,11 @@ Pas de panique, nous avons pensé à toi si tu es sur Windows ! Voici quelques a
 #### 3.3. Premières fonctions ?
 
 Pour faire marcher le terminal, rien de plus simple : il suffit de rentrer le texte correspondant à une fonction pour que celle-ci s'exécute. Par exemple, si dans l'explorateur en GUI il suffit de double cliquer sur `mon_fichier.txt` pour l'ouvrir, il faudra taper `open mon_fichier.txt` (sur macOS) ou `xdg-open mon_fichier.txt` (sur Linux) dans le terminal pour faire de même. On va tester ça avec notre première fonction :
-
-
-$ echo "Hello world !"
-
+    
+    
+    $ echo "Hello world !"
 
 _(je commence toutes les commandes de terminal avec un `$`. C'est une convention qui aide à reconnaître les commandes de CLI, mais qui ne fait pas partie de la commande. Enlève donc bien le $ au moment de tester !)_
-
 
 Si tu exécutes cette commande, le terminal devrait te renvoyer `Hello world !` (cette phrase est [un grand classique de la programmation][4]). Et là, BOUM ! Tu viens d'exécuter ta première commande de terminal 🎉.  
 Maintenant nous allons voir quelques commandes basiques.
@@ -74,33 +71,31 @@ Maintenant nous allons voir quelques commandes basiques.
 ##### 3.3.1. PWD
 
 `pwd` est l'acronyme de Print Working Directory, une commande affichant le dossier dans lequel tu es actuellement.
-
-
-$ pwd
-
+    
+    
+    $ pwd
 
 Pour moi, `pwd` me renvoie :
-
-
-/Users/felix
-
+    
+    
+    /Users/felix
 
 C'est comme dans l'explorateur en GUI, quand tu double-cliques sur `felix`, il te déplace dans le dossier `felix` qui est dans le dossier `Users`.
-
 
 #### 🚀 ALERTE BONNE ASTUCE
 
 `pwd` est généralement la première commande que l'on tape quand on arrive dans le terminal de quelqu'un car c'est idéal pour s'y retrouver ✌️
 
-
 ##### 3.3.2. LS
 
 `ls` est le diminutif de _list_. Cette fonction affiche les fichiers et dossiers situés dans mon dossier actuel.
-
-$ ls
+    
+    
+    $ ls
 
 Pour moi, `ls` me renvoie :
-
+    
+    
     Applications/   Dropbox/     Music/       Desktop/
     Pictures/     Documents/    Library/     Public/
     Downloads/    Movies/
@@ -110,8 +105,9 @@ Dans le terminal, nous pouvons ajouter des options à la plupart des fonctions e
 ##### 3.3.3. MAN
 
 `man` est le diminutif de _manual_. Man lance un programme permettant de lire le manuel d'une fonction précise. Pratique pour connaître toutes ses spécificités ! Pour s'en servir, il suffit de taper : `man fonction`. Par exemple, pour afficher le manuel de la commande ls, je dois taper :
-
-$ man ls
+    
+    
+    $ man ls
 
 Cette commande m'ouvrira le manuel de ls, que je peux quitter à tout moment en tapant `q` (comme... "quit").
 
@@ -124,13 +120,13 @@ Tu vas donc devoir te déplacer de dossiers en dossiers pour ouvrir et interagir
 #### 3.5. CD
 
 `cd` est l'acronyme de _Change Directory_. Cette commande permet de naviguer entre dossiers. Il s'agit en quelque sorte d'un double-clic sur un dossier 😁
-
-$ cd nomdudossier
+    
+    
+    $ cd nomdudossier
 
 Tu te déplaceras dans le dossier nommé `nomdudossier` (s'il existe là où tu te trouves).
 
 Tu peux aussi te déplacer vers le dossier parent en faisant `$ cd ..`
-
 
 #### 🚀 ALERTE BONNE ASTUCE
 
@@ -141,22 +137,25 @@ Utiliser la touche `TAB` permet de faire de l'autocompletion, très pratique pou
 ##### 3.6.1. Créer un fichier
 
 En tapant :
-
-$ touch nomdufichier
+    
+    
+    $ touch nomdufichier
 
 Cette commande va créer un fichier qui s'appelle _nomdufichier_
 
 ##### 3.6.2. Copier
 
 Pour copier un fichier ou un dossier et le coller ailleurs, il suffit de rentrer :
-
-$ cp fichier_à_copier lieu_de_destination
+    
+    
+    $ cp fichier_à_copier lieu_de_destination
 
 ##### 3.6.3. Déplacer
 
 Pour déplacer (couper) un fichier ou un dossier d'un endroit vers un autre, il suffit de rentrer :
-
-mv [fichier_à_déplacer] [lieu_de_destination]
+    
+    
+    mv [fichier_à_déplacer] [lieu_de_destination]
 
 #### 🚀 ALERTE BONNE ASTUCE
 
@@ -164,11 +163,15 @@ mv [fichier_à_déplacer] [lieu_de_destination]
 
 ##### 3.6.4. Remove
 
+Supprimer un fichier :
+    
+    
     $ rm nomdufichier
 
 Il est possible d'effacer un dossier ainsi que son contenu en ajoutant `-r` (comme "recursion") en option : 
-
-$ rm -r nomdudossier
+    
+    
+    $ rm -r nomdudossier
 
 #### 📚 INSTANT CULTURE GÉ
 
@@ -177,8 +180,9 @@ $ rm -r nomdudossier
 ##### 3.6.5. Vim
 
 Vim est l'un des éditeurs de texte les plus respectés au monde. Comme il passe uniquement par le terminal, il se marie extrêmement bien avec cet outil. Et comme il utilise juste le clavier, ses raccourcis permettent d'aller vraiment vite pour qui ose grimper la très rude courbe d'apprentissage (quelques semaines à plein temps). De ce fait, je te montrerai vim pour ta culture G, mais te demanderai de passer par un autre éditeur de texte 😉
-
-$ vim nomdufichier
+    
+    
+    $ vim nomdufichier
 
 Cette commande permet d'ouvrir vim sur le fichier _nomdufichier_ et de l'éditer. Pour quitter vim, il faut rentrer `:q!`.
 
